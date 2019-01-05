@@ -1,0 +1,330 @@
+.user-detail {
+    background: none repeat scroll 0 0 #FFFFFF;
+    opacity: 0.8;
+    position: absolute;
+    text-align: center;
+    z-index: 15;
+    margin: auto;
+    top: 10;
+    right: 0;
+    bottom: 6px;
+    left: 0;
+    width: 65%;
+    border-radius: 3px;
+}
+
+body {
+	font-family: Arial;
+}
+
+.navbar {
+    margin-bottom: 10px;
+}
+
+.row-equal-height {
+	display: table;
+	width: 100%;
+	table-layout: fixed;
+}
+
+.col-equal-height {
+	display: table-cell;
+}
+
+@media screen and (max-width: 400px){
+    .gm-style .gm-style-iw {
+	width: 222px !important;
+	top: 8px !important; 
+	left: 8px !important;
+    }
+}
+
+@media screen and (max-width: 767px){
+	div.dataTables_wrapper div.dataTables_length {
+		/* display: none !important; */
+		float: left;
+	}
+	
+	div.dataTables_wrapper div.dataTables_filter {
+		/* display: none !important; */
+		float: right;
+	}
+	
+	div.dataTables_wrapper div.dataTables_info {
+		/* display: none !important; */
+		float: left;
+	}
+	
+	div.dataTables_wrapper div.dataTables_paginate {
+		/* display: none !important; */
+		float: right;
+	}
+	
+	div.dataTables_wrapper div.dataTables_length,
+	div.dataTables_wrapper div.dataTables_filter,
+	div.dataTables_wrapper div.dataTables_info,
+	div.dataTables_wrapper div.dataTables_paginate {
+		text-align: justify !important;
+	}
+	
+	#right-panel-map {
+		height: auto !important;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		overflow: auto;
+		font-size: 11px;
+	}
+	
+	.col-equal-height {
+		display: block;
+	}
+}
+
+.nhtung-dropdown  {
+	position: static !important;
+	width: 100%;
+}
+
+.nhtung-dropdown-menu {
+	/* left: auto; */
+	width: 100%;
+}
+
+.nhtung-content {
+	padding: 15px;
+}
+
+.nhtung-content .dropdown-header {
+	color: #428bca;
+	font-size: 16px;
+	font-weight: bold;
+	padding-left: 0px !important;
+}
+
+.nhtung-content .carousel h4 {
+	color: #428bca;
+	text-align: center;
+	font-weight: bold;
+	font-size: 15px;
+	margin-bottom: 3px;
+}
+
+.nhtung-content .carousel p {
+	text-align: center;
+	font-size: 12px;
+	margin: 0px;
+}
+
+.nhtung-content ul {
+	list-style: none;
+}
+
+.nhtung-content ul li {
+	padding-left: 5px;
+}
+
+.nhtung-content ul label {
+	font-weight: normal !important;
+}
+
+.panel {
+	margin-bottom: 5px;
+}
+
+.no-margin-bottom {
+	margin-bottom: 0px !important;
+}
+
+#right-panel-map {
+	height: calc(100vh - 80px);
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: Arial !important;
+	font-size: 12px;
+	color: #000000;
+	overflow: auto;
+}
+
+#right-panel-map .adp-placemark {
+	margin-top: 0px;
+	font-weight: bold;
+}
+
+#right-panel-map table.adp-placemark {
+	margin-bottom: 0px;
+}
+
+#right-panel-map .adp-summary {
+	color: #0000ff;
+	font-weight: bold;
+}
+
+#right-panel-map .adp-legal, .aw-get-widget-footer, .aw-toggle {
+	display: none;
+}
+
+.panel-body-map {
+    padding: 0px;
+}
+
+#map-canvas {
+    height: calc(100vh - 80px);
+	width: 100%;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+#map-canvas-detail {
+    height: 100% !important;
+	width: 100%;
+	position: relative;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	display: table-cell;
+}
+
+#output {
+	position: absolute;
+}
+
+hr {
+	margin-top: 10px;
+	margin-bottom: 5px;
+	border: 0;
+	border-top: 1px solid #e0e0e0;
+}
+
+.thumbnail {
+	margin-bottom: 10px;
+}
+
+.thumbnail .img-thumbnail {
+	border: 0px;
+	box-shadow: none !important;
+}
+
+.thumbnail .caption {
+	text-align: center;
+}
+
+.img-responsive {
+	float: none;
+    display: block;
+    margin: 0 auto;
+}
+
+#checkboxset {
+	display: block;
+}
+
+#checkboxsetmap {
+	display: block;
+}
+
+#checkboxsetmap label {
+	width: 200px;
+	text-align: left;
+	margin-bottom: 1px;
+}
+
+.dropdown-menu {
+	padding: 0px;
+	border: 1px solid rgba(0,0,0,.15);
+	border-radius: 0px;
+}
+
+.ui-controlgroup > .ui-controlgroup-item {
+	margin-right: 3px;
+}
+
+.ui-widget {
+	font-family: inherit;
+}
+
+.ui-button {
+	padding: .6em 1em;
+}
+
+.table > tbody > tr > td {
+     vertical-align: middle;
+}
+
+/*https://kukuruku.co/post/google-maps-customization/*/
+.gm-style .gm-style-iw {
+	width: 322px !important;
+	top: 8px !important; 
+	left: 8px !important;
+}
+
+.search-result .media {
+	border-bottom: 1px solid #dee3e7;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+}
+
+.search-result .media-heading {
+	font-size: 17px;
+}
+
+.search-result .media-body p {
+	margin: 5px 0px 0px 0px;
+}
+
+.my-weather {
+	text-align: center;
+	
+}
+
+.my-weather img {
+	padding-right: 10px;
+}
+
+.my-weather .my-weather-temp {
+	padding-left: 0px;
+	
+}
+
+.my-weather .my-weather-humidity {
+	padding-left: 10px;
+}
+
+.starRating:not(old){
+  display        : inline-block;
+  width          : 15em;
+  height         : 1.5em;
+  overflow       : hidden;
+  vertical-align : bottom;
+}
+
+.starRating:not(old) > input{
+  margin-right : -100%;
+  opacity      : 0;
+}
+
+.starRating:not(old) > label{
+  display         : block;
+  float           : right;
+  position        : relative;
+  background      : url('star-off.svg');
+  background-size : contain;
+}
+
+.starRating:not(old) > label:before{
+  content         : '';
+  display         : block;
+  width           : 1.5em;
+  height          : 1.5em;
+  background      : url('star-on.svg');
+  background-size : contain;
+  opacity         : 0;
+  transition      : opacity 0.2s linear;
+}
+
+.starRating:not(old) > :checked ~ label:before{
+  opacity : 1;
+}
